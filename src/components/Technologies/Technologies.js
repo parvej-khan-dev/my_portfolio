@@ -20,7 +20,8 @@ const Technologies = () => (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with the following technologies in the web development world. Now I'm focused towards React and Nodejs.
+      I've worked with the following technologies in the web development world.
+      Now I'm focused towards React and Nodejs.
     </SectionText>
     <List>
       <ListItem>
@@ -31,7 +32,7 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            HTML, CSS, JavaScript, React, Semantic UI, Tailwind
+            HTML, CSS, JavaScript, React, Nextjs, Tailwind
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -43,8 +44,8 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Nodejs, Expressjs, MongoDB, Sockets.
-                  </ListParagraph>
+            Nodejs,Nestjs, Expressjs, MongoDB, Sockets.
+          </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>

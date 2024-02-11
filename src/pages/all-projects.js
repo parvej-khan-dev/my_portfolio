@@ -17,20 +17,20 @@ const AllProjects = () => {
 
   const handleFilter = (type) => {
     switch (type) {
-      case "javascript":
-        setData([...projects].filter((p) => p.mainType === "javascript"));
-        setFilterBy("JavaScript");
-        break;
-
       case "Nodejs":
         setData([...projects].filter((p) => p.mainType === "Nodejs"));
-        console.log(data,"filter")
+        console.log(data, "filter");
         setFilterBy("Nodejs");
         break;
 
       case "react":
         setData([...projects].filter((p) => p.mainType === "react"));
         setFilterBy("React");
+        break;
+
+      case "javascript":
+        setFilterBy("JavaScript");
+        setData([...projects].filter((p) => p.mainType === "javascript"));
         break;
 
       default:

@@ -21,8 +21,8 @@ export const projects = [
     id: 1,
     order: 100,
     mainType: "react",
-    github:"https://github.com/parvej-khan-dev/specscart",
-    live_link:"https://specscart.vercel.app/"
+    github: "https://github.com/parvej-khan-dev/specscart",
+    live_link: "https://specscart.vercel.app/",
   },
   {
     title: "Train Reservation System",
@@ -192,7 +192,7 @@ export const projects = [
     id: 9,
     order: 91,
     mainType: "Nodejs",
-    github:"https://github.com/parvej-khan-dev/firebase_authentication"
+    github: "https://github.com/parvej-khan-dev/firebase_authentication",
   },
   {
     title: "Event Management Server",
@@ -226,19 +226,17 @@ export const projects = [
     id: 12,
     order: 88,
     mainType: "Nodejs",
-    github:"https://github.com/exponentsoftware/event-managment-server"
+    github: "https://github.com/exponentsoftware/event-managment-server",
   },
 ];
 
 export const TimeLineData = [
   {
-    year: 2020,
-    text: "Start Freelancing on wordpress website development.",
+    year: "July 2023 - Present",
+    text: " Full Stack Developer at Seraphic Infosolutions, Mohali, Punjab. Spearheaded the development of an AI-powered tool and Chrome extension for streamlined communication on Tinder. Led the creation of a remote recruitment website and web application. Orchestrated the backend architecture using Node.js for a health application.",
   },
   {
-    year: 2021,
-    text: "Starting my journey as a wordpress developer and SEO executive.",
+    year: "Oct 2022- Jun 2023",
+    text: "MERN Stack Developer (Tech Team) at Pohu Labs, Hyderabad, Telangana. Responsible for designing, developing, and maintaining server-side applications using Node.js. Implemented RESTful APIs using Express.js, resulting in a 30% increase in API response time. Contributed to authentication and authorization using tools like Passport.js and JWT",
   },
-  { year: 2022, text: "Upskilling in Product Engineering From SOAL." },
-  { year: 2022, text: "Starting my journey as a Backend Developer " },
 ];

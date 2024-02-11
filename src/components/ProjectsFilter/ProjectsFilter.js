@@ -17,21 +17,21 @@ const ProjectsFilter = ({ filter, filterBy }) => (
       >
         All
       </Button>
-      <Button
+      {/* <Button
         type="button"
         className={filterBy === "JavaScript" ? "active" : null}
         aria-label="Filter by JS"
         onClick={() => filter("javascript")}
       >
         <SiJavascript />
-      </Button>
+      </Button> */}
       <Button
         type="button"
         className={filterBy === "React" ? "active" : null}
         aria-label="Filter by ReactJS"
         onClick={() => filter("react")}
       >
-        <SiReact />
+        <SiReact /> <span style={{ marginLeft: "0.5rem" }}>React</span>
       </Button>
       <Button
         type="button"
@@ -39,7 +39,7 @@ const ProjectsFilter = ({ filter, filterBy }) => (
         aria-label="Filter by Nodejs"
         onClick={() => filter("Nodejs")}
       >
-        <FaNodeJs />
+        <FaNodeJs /> <span style={{ marginLeft: "0.5rem" }}>Nodejs</span>
       </Button>
     </FilterContainer>
   </section>

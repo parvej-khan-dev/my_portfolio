@@ -21,11 +21,11 @@ const Hero = () => {
         <LeftSection>
           <SectionTitle main center>
             Welcome To <br />
-            My Personal Portfolio
+            My Journey
           </SectionTitle>
           <SectionText style={{ paddingBottom: 0 }}>
             The purpose of this portfolio website is to quickly become familiar
-            with my few projects and general information about me. <br />
+            with my projects and general information about me. <br />
             Access contact links for more details and a possible collaboration.
           </SectionText>
           {/*<Button onClick={props.handleClick}>Learn More</Button>*/}

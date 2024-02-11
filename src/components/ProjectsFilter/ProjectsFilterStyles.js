@@ -20,6 +20,7 @@ export const Button = styled.button`
   color: ${(props) => props.theme.colors.primary1};
   background-color: ${(props) => props.theme.colors.filterBtnBgColor};
   border: 1px solid transparent;
+  
 
   &:hover {
     background-image: none;

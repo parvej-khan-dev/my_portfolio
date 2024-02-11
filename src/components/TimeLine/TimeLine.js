@@ -72,20 +72,14 @@ const Timeline = () => {
       <SectionDivider divider />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Hi, I'm Parvej - a passionate full stack developer, I'm a highly
+        Hi, I'm Parvej khan- a passionate Full stack developer, I'm a highly
         motivated and dedicated MERN (MongoDB, Express.js, React.js, Node.js)
         Stack Developer with a passion for building web applications and APIs.
         With proficiency in JavaScript, Node.js, Express.js, MongoDB, and
         related technologies, I am committed to delivering high-quality,
         well-tested, and scalable code.
       </SectionText>
-      {/* <SectionText>
-        In my current role as a MERN Stack Developer at Pohu Labs, located in
-        Hyderabad, Telangana, I design, develop, and maintain server-side
-        applications using Node.js. I have successfully implemented RESTful APIs
-        using the Express.js framework, resulting in a 30% increase in API
-        response time and seamless integration with partner applications.
-      </SectionText> */}
+
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
@@ -101,7 +95,7 @@ const Timeline = () => {
               >
                 <CarouselItemTitle>
                   {`${item.year}`}
-                  <CarouselItemImg
+                  {/* <CarouselItemImg
                     width="208"
                     height="6"
                     viewBox="0 0 208 6"
@@ -130,7 +124,7 @@ const Timeline = () => {
                         />
                       </linearGradient>
                     </defs>
-                  </CarouselItemImg>
+                  </CarouselItemImg> */}
                 </CarouselItemTitle>
                 <CarouselItemText>{item.text}</CarouselItemText>
               </CarouselItem>
