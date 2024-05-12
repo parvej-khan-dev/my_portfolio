@@ -1,5 +1,45 @@
 export const projects = [
   {
+    title: "Yoom App - Video Conferencing App",
+    description:
+      "Yoom - a cutting-edge video conferencing web application that redefines virtual collaboration. Built with the powerful NextJS Developers framework, and leveraging the robustness of Clerk.com for authentication and Stream for real-time communication",
+    image: "images/projects/zoom_clone/home.png",
+    imageWebp: "images/projects/zoom_clone/home.png",
+    images: [
+      {
+        original: "images/projects/zoom_clone/meeting-room.png",
+        loading: "lazy",
+        originalAlt: "hex-color-1",
+      },
+      {
+        original: "images/projects/zoom_clone/personal-room.png",
+        loading: "lazy",
+        originalAlt: "hex-color-1",
+      },
+      {
+        original: "images/projects/zoom_clone/previous.png",
+        loading: "lazy",
+        originalAlt: "hex-color-1",
+      },
+      {
+        original: "images/projects/zoom_clone/recordings.png",
+        loading: "lazy",
+        originalAlt: "hex-color-1",
+      },
+      {
+        original: "images/projects/zoom_clone/upcoming.png",
+        loading: "lazy",
+        originalAlt: "hex-color-1",
+      }
+    ],
+    tags: ["JavaScript", "CSS", "HTML", "NextJS", "Tailwind CSS"],
+    id: 1,
+    order: 1,
+    mainType: "NextJS",
+    github: "https://github.com/parvej-khan-dev/zoom_clone",
+    live_link: "https://zoom-clone-dev.vercel.app/",
+  },
+  {
     title: "SpecsCart UI",
     description:
       "What a frontend developer doesn't build up a similar application? This app UI Application is make on HTML/CSS and tailwind css with mobile responsiveness",
@@ -24,6 +64,7 @@ export const projects = [
     github: "https://github.com/parvej-khan-dev/specscart",
     live_link: "https://specscart.vercel.app/",
   },
+
   {
     title: "Train Reservation System",
     description:

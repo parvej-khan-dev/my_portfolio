@@ -2,6 +2,7 @@ import React from "react";
 import { FilterContainer, Button, FilterHeading } from "./ProjectsFilterStyles";
 import { SiReact, SiJavascript } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
+import { RiNextjsLine } from "react-icons/ri";
 
 const ProjectsFilter = ({ filter, filterBy }) => (
   <section>
@@ -40,6 +41,14 @@ const ProjectsFilter = ({ filter, filterBy }) => (
         onClick={() => filter("Nodejs")}
       >
         <FaNodeJs /> <span style={{ marginLeft: "0.5rem" }}>Nodejs</span>
+      </Button>
+      <Button
+        type="button"
+        className={filterBy === "NextJS" ? "active" : null}
+        aria-label="Filter by NextJS"
+        onClick={() => filter("NextJS")}
+      >
+        <FaNodeJs /> <span style={{ marginLeft: "0.5rem" }}>NextJS</span>
       </Button>
     </FilterContainer>
   </section>

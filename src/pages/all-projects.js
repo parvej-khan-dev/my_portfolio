@@ -32,6 +32,10 @@ const AllProjects = () => {
         setFilterBy("JavaScript");
         setData([...projects].filter((p) => p.mainType === "javascript"));
         break;
+      case "NextJS":
+        setFilterBy("NextJS");
+        setData([...projects].filter((p) => p.mainType === "NextJS"));
+        break;
 
       default:
         setData([...projects]);
