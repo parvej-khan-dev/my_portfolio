@@ -277,7 +277,7 @@ export const TimeLineData = [
     text: " Full Stack Developer at Seraphic Infosolutions, Mohali, Punjab. Spearheaded the development of an AI-powered tool and Chrome extension for streamlined communication on Tinder. Led the creation of a remote recruitment website and web application. Orchestrated the backend architecture using Node.js for a health application.",
   },
   {
-    year: "Oct 2022- Jun 2023",
+    year: "July 2022- Jun 2023",
     text: "MERN Stack Developer (Tech Team) at Pohu Labs, Hyderabad, Telangana. Responsible for designing, developing, and maintaining server-side applications using Node.js. Implemented RESTful APIs using Express.js, resulting in a 30% increase in API response time. Contributed to authentication and authorization using tools like Passport.js and JWT",
   },
 ];
