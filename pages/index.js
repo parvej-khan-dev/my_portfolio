@@ -6,6 +6,7 @@ import LatestCode from "../components/LatestCode";
 import Hero from "../components/Hero";
 import getLatestRepos from "@lib/getLatestRepos";
 import userData from "@constants/data";
+import { Analytics } from "@vercel/analytics/react"
 
 export default function Home({ repositories }) {
   return (
@@ -16,6 +17,7 @@ export default function Home({ repositories }) {
       <Hero />
       <FavouriteProjects />
       <LatestCode repositories={repositories} />
+      <Analytics />
     </ContainerBlock>
   );
 }
