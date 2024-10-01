@@ -8,6 +8,11 @@
 # testing
 /coverage
 
+
+.next
+.env
+
+package-lock.json
 # next.js
 /.next/
 /out/
@@ -18,8 +23,6 @@
 # misc
 .DS_Store
 *.pem
-.idea
-.babelrc
 
 # debug
 npm-debug.log*
