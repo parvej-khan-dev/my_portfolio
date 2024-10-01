@@ -50,6 +50,7 @@ export default function LatestCode({ repositories }) {
 }
 
 const GithubRepoCard = ({ latestRepo }) => {
+  console.log("latestRepo", latestRepo)
   return (
     <div className="github-repo">
       <h1 className="font-semibold text-xl dark:text-gray-200 text-gray-700">
@@ -59,7 +60,7 @@ const GithubRepoCard = ({ latestRepo }) => {
         {latestRepo.description}
       </p>
       <a
-        href={latestRepo.clone_url}
+        href={latestRepo.url}
         className="font-semibold group flex flex-row space-x-2 w-full items-center"
       >
         <p>View Repository </p>
