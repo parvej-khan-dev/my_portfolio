@@ -62,6 +62,13 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Minute Master",
+    description:
+      "A smart todo app that tracks task durations with start/stop functionality and generates time-based reports for better productivity insights.",
+    tags: ["React.js", "Tailwind", "Typescript", "Vite"],
+    link: "https://minute-master.vercel.app/",
+  },
+  {
     title: "Blood Donation App",
     description:
       "The app aims to facilitate the process of connecting blood donors with individuals in need of blood in their nearby locality.",
